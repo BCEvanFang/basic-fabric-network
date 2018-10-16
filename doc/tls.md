@@ -1,7 +1,7 @@
 ## Enable Peer TLS
 
 For peer, you need 4 env in docker-compose file
-```
+```sh
 - CORE_PEER_TLS_ENABLED=true
 - CORE_PEER_TLS_CERT_FILE=/etc/hyperledger/fabric/tls/server.crt
 - CORE_PEER_TLS_KEY_FILE=/etc/hyperledger/fabric/tls/server.key
